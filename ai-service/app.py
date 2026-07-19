@@ -38,7 +38,9 @@ class TicketRequest(BaseModel):
     ticket : str    
 
 
-
+@app.get("/")
+def root():
+    return {"message": "AI Ticketing System API is running!"}
 
 
 
