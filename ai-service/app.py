@@ -22,6 +22,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
+        "https://ai-ticketing-system-cl9s.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],

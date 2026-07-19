@@ -4,6 +4,17 @@ An AI-powered Ticketing System built using **React, FastAPI, LangChain, FAISS, a
 
 This project demonstrates practical implementation of **Large Language Models (LLMs)**, **semantic search**, **vector databases**, and **Retrieval-Augmented Generation (RAG)** in a real-world enterprise use case.
 
+
+## 🚀 Live Demo
+
+Frontend:
+https://ai-ticketing-system-cl9s.vercel.app
+
+Backend API:
+https://ai-ticketing-system-b8qe.onrender.com
+
+
+
 ---
 
 ## 🚀 Features
