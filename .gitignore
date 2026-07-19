@@ -2,7 +2,7 @@ node_modules/
 client/node_modules/
 server/node_modules/
 
-.env
+ai-service/.env
 .env.local
 .env.*
 
@@ -19,3 +19,5 @@ uploads/
 *.log
 
 .DS_Store
+
+client/.env
