@@ -6,7 +6,7 @@ import {
 
 function SystemStatus() {
     return (
-        <div className="bg-white rounded-3xl shadow-lg p-8">
+        <div className="bg-white rounded-3xl shadow-lg p-5 md:p-8">
 
             <h2 className="text-2xl font-bold mb-6">
                 System Status

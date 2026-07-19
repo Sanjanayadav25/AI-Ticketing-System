@@ -164,29 +164,6 @@ AI-Ticketing-System
 └── README.md
 ```
 
-
-## 📸 Screenshots
-
-### Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
-### AI Ticket Analyzer
-
-![Analyzer](screenshots/analyzer.png)
-
-### Knowledge Base
-
-![Knowledge Base](screenshots/knowledge.png)
-
-### Analytics
-
-![Analytics](screenshots/analytics.png)
-
-### Settings
-
-![Settings](screenshots/settings.png)
-
 ---
 
 # 📡 API Endpoints

@@ -5,7 +5,7 @@ function InfoRow({ label, value }) {
         {label}
       </span>
 
-      <span className="font-semibold">
+      <span className="font-semibold  ">
         {value}
       </span>
     </div>

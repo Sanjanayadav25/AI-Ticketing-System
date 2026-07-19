@@ -66,7 +66,7 @@ function Settings() {
 
       {/* System Information */}
 
-      <div className="bg-white rounded-3xl shadow-lg p-8">
+      <div className="bg-white rounded-3xl shadow-lg p-5">
         <h2 className="text-2xl font-bold mb-6">About System</h2>
 
         <InfoRow label="LLM Provider" value="Groq" />

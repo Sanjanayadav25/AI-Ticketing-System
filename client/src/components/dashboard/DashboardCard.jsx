@@ -6,29 +6,24 @@ function DashboardCard({
   color,
 }) {
   return (
-    <div className={`rounded-3xl p-7 text-white shadow-lg hover:scale-105 transition-all duration-300
-      cursor-pointer ${color}`}>
-
-      <h3 className="text-lg opacity-90">
+    <div
+      className={`rounded-3xl p-5 md:p-7 text-white shadow-lg
+      hover:scale-105 transition-all duration-300
+      cursor-pointer ${color}`}
+    >
+      <h3 className="text-base md:text-lg opacity-90">
         {title}
       </h3>
 
-      <h1 className="text-4xl font-bold mt-4">
+      <h1 className="text-3xl md:text-4xl font-bold mt-4">
         {typeof value === "number" ? (
-          <AnimatedCounter
-            value={value}
-          />
+          <AnimatedCounter value={value} />
         ) : (
           value
         )}
-
       </h1>
-
     </div>
   );
 }
-
-     
-
 
 export default DashboardCard;

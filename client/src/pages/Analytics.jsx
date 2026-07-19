@@ -34,7 +34,7 @@ function Analytics() {
         <p className="text-slate-700 text-xl mt-1">Overview of AI Ticketing System</p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
         <StatCard
           title="Knowledge Files"
           value={stats.knowledge_files}
@@ -57,7 +57,7 @@ function Analytics() {
         />
       </div>
 
-      <div className="mt-10">
+      <div className="mt-10 w-full">
         <OverviewChart stats={stats} />
       </div>
     </div>
